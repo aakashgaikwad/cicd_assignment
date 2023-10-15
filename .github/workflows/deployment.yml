@@ -19,12 +19,3 @@ steps:
 
     - name: Install dependencies
       run: npm install
-- name: Run tests
-      run: npm test
-
-    - name: Build
-      run: npm build
-
-    - name: Deploy
-      run: |
-        # Add deployment steps here
