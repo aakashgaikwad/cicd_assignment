@@ -25,6 +25,7 @@ jobs:
       - name: Build
         run: |
           npm run build
+          echo pwd
       - name: redirect to app
         run: |
-          cd /dist/demo-app
+         npm run deploy
